@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: GameSettings
   m_EditorClassIdentifier: 
   TurnDuration: 15
-  DrawTurnNumber: 15
+  DrawTurnNumber: 30
   SlowRangedUnit:
     Prefab: {fileID: 3881335462371577295, guid: f054810a50757114e827f9d0e44dc383, type: 3}
     MoveSpeed: 5
-    AttackRange: 3
+    AttackRange: 4
     StartingCount: 3
   FastMeleeUnit:
     Prefab: {fileID: 3881335462371577295, guid: f054810a50757114e827f9d0e44dc383, type: 3}
     MoveSpeed: 10
-    AttackRange: 3
+    AttackRange: 4
     StartingCount: 3
   BoardSize: {x: 30, y: 30}
   Obstacles:
