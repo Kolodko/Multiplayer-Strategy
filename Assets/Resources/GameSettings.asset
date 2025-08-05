@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b43a26f3629cc4a8edb0f80e33fa67, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  TurnDuration: 15
+  DrawTurnNumber: 15
+  SlowRangedUnit:
+    Prefab: {fileID: 3881335462371577295, guid: f054810a50757114e827f9d0e44dc383, type: 3}
+    MoveSpeed: 5
+    AttackRange: 3
+    StartingCount: 3
+  FastMeleeUnit:
+    Prefab: {fileID: 3881335462371577295, guid: f054810a50757114e827f9d0e44dc383, type: 3}
+    MoveSpeed: 10
+    AttackRange: 3
+    StartingCount: 3
+  BoardSize: {x: 30, y: 30}
+  Obstacles:
+  - Prefab: {fileID: 3135264038890993707, guid: 2bd14520526e1b445a0925eb5a49f7e0, type: 3}
+    MinCount: 1
+    MaxCount: 1
+    SpawnAreaMin: {x: -2.72, y: -2.72}
+    SpawnAreaMax: {x: -2.72, y: -2.72}
+  - Prefab: {fileID: 3135264038890993707, guid: 2bd14520526e1b445a0925eb5a49f7e0, type: 3}
+    MinCount: 1
+    MaxCount: 1
+    SpawnAreaMin: {x: 10, y: -5}
+    SpawnAreaMax: {x: 10, y: -5}
+  - Prefab: {fileID: 3135264038890993707, guid: 2bd14520526e1b445a0925eb5a49f7e0, type: 3}
+    MinCount: 1
+    MaxCount: 1
+    SpawnAreaMin: {x: 15, y: 10}
+    SpawnAreaMax: {x: 16, y: 10}
+  - Prefab: {fileID: 3135264038890993707, guid: 2bd14520526e1b445a0925eb5a49f7e0, type: 3}
+    MinCount: 1
+    MaxCount: 1
+    SpawnAreaMin: {x: -7, y: 7}
+    SpawnAreaMax: {x: -7, y: 7}
+  - Prefab: {fileID: 3135264038890993707, guid: 2bd14520526e1b445a0925eb5a49f7e0, type: 3}
+    MinCount: 1
+    MaxCount: 1
+    SpawnAreaMin: {x: -16, y: -6}
+    SpawnAreaMax: {x: -16, y: -6}
+  PlayerSpawnZones:
+  - Center: {x: 10, y: 10}
+    Size: {x: 1, y: 1}
+    RandomizePositions: 1
+  - Center: {x: -7, y: -7}
+    Size: {x: 1, y: 1}
+    RandomizePositions: 1
